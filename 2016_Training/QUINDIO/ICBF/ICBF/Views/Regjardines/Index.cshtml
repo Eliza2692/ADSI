@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ICBF.Models.Regjardines>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nom_jardin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dire)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.estado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DatMadrecomunitaria.nom_ape)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nom_jardin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dire)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.estado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DatMadrecomunitaria.nom_ape)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.nom_jardin }) |
+            @Html.ActionLink("Details", "Details", new { id=item.nom_jardin }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.nom_jardin })
+        </td>
+    </tr>
+}
+
+</table>

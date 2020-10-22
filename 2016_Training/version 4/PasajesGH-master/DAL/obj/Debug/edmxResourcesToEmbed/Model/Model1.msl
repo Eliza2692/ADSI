@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PasajesBDModelStoreContainer" CdmEntityContainer="PasajesBDEntities">
+    <EntitySetMapping Name="BUSES">
+      <EntityTypeMapping TypeName="IsTypeOf(PasajesBDModel.BUSES)">
+        <MappingFragment StoreEntitySet="BUSES">
+          <ScalarProperty Name="IdBus" ColumnName="IdBus" />
+          <ScalarProperty Name="PlacaBus" ColumnName="PlacaBus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BUSES_RUTAS">
+      <EntityTypeMapping TypeName="IsTypeOf(PasajesBDModel.BUSES_RUTAS)">
+        <MappingFragment StoreEntitySet="BUSES_RUTAS">
+          <ScalarProperty Name="IdBusRuta" ColumnName="IdBusRuta" />
+          <ScalarProperty Name="idBus" ColumnName="idBus" />
+          <ScalarProperty Name="FechaRuta" ColumnName="FechaRuta" />
+          <ScalarProperty Name="IdHorario" ColumnName="IdHorario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CIUDADES">
+      <EntityTypeMapping TypeName="IsTypeOf(PasajesBDModel.CIUDADES)">
+        <MappingFragment StoreEntitySet="CIUDADES">
+          <ScalarProperty Name="IdCiudad" ColumnName="IdCiudad" />
+          <ScalarProperty Name="NombreCiudad" ColumnName="NombreCiudad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIENTES">
+      <EntityTypeMapping TypeName="IsTypeOf(PasajesBDModel.CLIENTES)">
+        <MappingFragment StoreEntitySet="CLIENTES">
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="NombresCliente" ColumnName="NombresCliente" />
+          <ScalarProperty Name="ApellidosCliente" ColumnName="ApellidosCliente" />
+          <ScalarProperty Name="TelefonoCliente" ColumnName="TelefonoCliente" />
+          <ScalarProperty Name="CorreoCliente" ColumnName="CorreoCliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DETALLE_FACTURA">
+      <EntityTypeMapping TypeName="IsTypeOf(PasajesBDModel.DETALLE_FACTURA)">
+        <MappingFragment StoreEntitySet="DETALLE_FACTURA">
+          <ScalarProperty Name="IdDetalleFactura" ColumnName="IdDetalleFactura" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+          <ScalarProperty Name="IdBusesRuta" ColumnName="IdBusesRuta" />
+          <ScalarProperty Name="IdFactura" ColumnName="IdFactura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FACTURAS">
+      <EntityTypeMapping TypeName="IsTypeOf(PasajesBDModel.FACTURAS)">
+        <MappingFragment StoreEntitySet="FACTURAS">
+          <ScalarProperty Name="IdFactura" ColumnName="IdFactura" />
+          <ScalarProperty Name="FechaFactura" ColumnName="FechaFactura" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HORARIOS">
+      <EntityTypeMapping TypeName="IsTypeOf(PasajesBDModel.HORARIOS)">
+        <MappingFragment StoreEntitySet="HORARIOS">
+          <ScalarProperty Name="IdHorario" ColumnName="IdHorario" />
+          <ScalarProperty Name="IdRuta" ColumnName="IdRuta" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PUESTOS">
+      <EntityTypeMapping TypeName="IsTypeOf(PasajesBDModel.PUESTOS)">
+        <MappingFragment StoreEntitySet="PUESTOS">
+          <ScalarProperty Name="IdPuesto" ColumnName="IdPuesto" />
+          <ScalarProperty Name="IdBusRuta" ColumnName="IdBusRuta" />
+          <ScalarProperty Name="NumeroPuesto" ColumnName="NumeroPuesto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RUTAS">
+      <EntityTypeMapping TypeName="IsTypeOf(PasajesBDModel.RUTAS)">
+        <MappingFragment StoreEntitySet="RUTAS">
+          <ScalarProperty Name="IdRuta" ColumnName="IdRuta" />
+          <ScalarProperty Name="CiudadOrigen" ColumnName="CiudadOrigen" />
+          <ScalarProperty Name="CiudadDestino" ColumnName="CiudadDestino" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="IsTypeOf(PasajesBDModel.sysdiagrams)">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

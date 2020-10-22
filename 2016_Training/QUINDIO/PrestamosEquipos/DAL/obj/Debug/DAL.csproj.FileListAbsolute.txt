@@ -1,0 +1,9 @@
+c:\users\com\documents\visual studio 2013\Projects\PrestamosEquipos\DAL\bin\Debug\DAL.dll.config
+c:\users\com\documents\visual studio 2013\Projects\PrestamosEquipos\DAL\bin\Debug\DAL.dll
+c:\users\com\documents\visual studio 2013\Projects\PrestamosEquipos\DAL\bin\Debug\DAL.pdb
+c:\users\com\documents\visual studio 2013\Projects\PrestamosEquipos\DAL\bin\Debug\EntityFramework.dll
+c:\users\com\documents\visual studio 2013\Projects\PrestamosEquipos\DAL\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\com\documents\visual studio 2013\Projects\PrestamosEquipos\DAL\bin\Debug\EntityFramework.xml
+c:\users\com\documents\visual studio 2013\Projects\PrestamosEquipos\DAL\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\com\documents\visual studio 2013\Projects\PrestamosEquipos\DAL\obj\Debug\DAL.dll
+c:\users\com\documents\visual studio 2013\Projects\PrestamosEquipos\DAL\obj\Debug\DAL.pdb

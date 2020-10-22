@@ -1,0 +1,83 @@
+﻿@model ICBF.Models.Datninos
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Datninos</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nomape)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nomape)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tip_san)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tip_san)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ciu_nac)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ciu_nac)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fec_nac)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fec_nac)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dir)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dir)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.eps)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.eps)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dacudiente.nom_ape)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dacudiente.nom_ape)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.niup }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

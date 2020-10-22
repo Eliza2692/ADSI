@@ -1,0 +1,7 @@
+c:\Users\sena-principal\documents\visual studio 2013\Projects\GUI\DAL\bin\Debug\DAL.dll
+c:\Users\sena-principal\documents\visual studio 2013\Projects\GUI\DAL\bin\Debug\DAL.pdb
+c:\Users\sena-principal\documents\visual studio 2013\Projects\GUI\DAL\bin\Debug\Entities.dll
+c:\Users\sena-principal\documents\visual studio 2013\Projects\GUI\DAL\bin\Debug\Entities.pdb
+c:\Users\sena-principal\documents\visual studio 2013\Projects\GUI\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\Users\sena-principal\documents\visual studio 2013\Projects\GUI\DAL\obj\Debug\DAL.dll
+c:\Users\sena-principal\documents\visual studio 2013\Projects\GUI\DAL\obj\Debug\DAL.pdb

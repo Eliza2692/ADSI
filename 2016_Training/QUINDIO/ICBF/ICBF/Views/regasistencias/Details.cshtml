@@ -1,0 +1,35 @@
+﻿@model ICBF.Models.regasistencia
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutMadres.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>regasistencia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.estado_nino)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estado_nino)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Datninos.nomape)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Datninos.nomape)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

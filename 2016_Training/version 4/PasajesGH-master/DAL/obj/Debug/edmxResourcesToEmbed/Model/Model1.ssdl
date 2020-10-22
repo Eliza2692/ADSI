@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PasajesBDModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="PasajesBDModelStoreContainer">
+    <EntitySet Name="BUSES" EntityType="PasajesBDModel.Store.BUSES" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BUSES_RUTAS" EntityType="PasajesBDModel.Store.BUSES_RUTAS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CIUDADES" EntityType="PasajesBDModel.Store.CIUDADES" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CLIENTES" EntityType="PasajesBDModel.Store.CLIENTES" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DETALLE_FACTURA" EntityType="PasajesBDModel.Store.DETALLE_FACTURA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FACTURAS" EntityType="PasajesBDModel.Store.FACTURAS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HORARIOS" EntityType="PasajesBDModel.Store.HORARIOS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PUESTOS" EntityType="PasajesBDModel.Store.PUESTOS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RUTAS" EntityType="PasajesBDModel.Store.RUTAS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="PasajesBDModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_BUSES_RUTAS_BUSES" Association="PasajesBDModel.Store.FK_BUSES_RUTAS_BUSES">
+      <End Role="BUSES" EntitySet="BUSES" />
+      <End Role="BUSES_RUTAS" EntitySet="BUSES_RUTAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETALLE_FACTURA_BUSES_RUTAS" Association="PasajesBDModel.Store.FK_DETALLE_FACTURA_BUSES_RUTAS">
+      <End Role="BUSES_RUTAS" EntitySet="BUSES_RUTAS" />
+      <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PUESTOS_BUSES_RUTAS" Association="PasajesBDModel.Store.FK_PUESTOS_BUSES_RUTAS">
+      <End Role="BUSES_RUTAS" EntitySet="BUSES_RUTAS" />
+      <End Role="PUESTOS" EntitySet="PUESTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RUTAS_CIUDADES" Association="PasajesBDModel.Store.FK_RUTAS_CIUDADES">
+      <End Role="CIUDADES" EntitySet="CIUDADES" />
+      <End Role="RUTAS" EntitySet="RUTAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RUTAS_CIUDADES1" Association="PasajesBDModel.Store.FK_RUTAS_CIUDADES1">
+      <End Role="CIUDADES" EntitySet="CIUDADES" />
+      <End Role="RUTAS" EntitySet="RUTAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FACTURAS_CLIENTES" Association="PasajesBDModel.Store.FK_FACTURAS_CLIENTES">
+      <End Role="CLIENTES" EntitySet="CLIENTES" />
+      <End Role="FACTURAS" EntitySet="FACTURAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETALLE_FACTURA_FACTURAS" Association="PasajesBDModel.Store.FK_DETALLE_FACTURA_FACTURAS">
+      <End Role="FACTURAS" EntitySet="FACTURAS" />
+      <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HORARIOS_RUTAS" Association="PasajesBDModel.Store.FK_HORARIOS_RUTAS">
+      <End Role="RUTAS" EntitySet="RUTAS" />
+      <End Role="HORARIOS" EntitySet="HORARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BUSES_RUTAS_HORARIOS" Association="PasajesBDModel.Store.FK_BUSES_RUTAS_HORARIOS">
+      <End Role="HORARIOS" EntitySet="HORARIOS" />
+      <End Role="BUSES_RUTAS" EntitySet="BUSES_RUTAS" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="BUSES">
+    <Key>
+      <PropertyRef Name="IdBus" />
+    </Key>
+    <Property Name="IdBus" Type="varchar" Nullable="false" MaxLength="5" />
+    <Property Name="PlacaBus" Type="varchar" Nullable="false" MaxLength="6" />
+  </EntityType>
+  <EntityType Name="BUSES_RUTAS">
+    <Key>
+      <PropertyRef Name="IdBusRuta" />
+    </Key>
+    <Property Name="IdBusRuta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idBus" Type="varchar" Nullable="false" MaxLength="5" />
+    <Property Name="FechaRuta" Type="datetime" Nullable="false" />
+    <Property Name="IdHorario" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CIUDADES">
+    <Key>
+      <PropertyRef Name="IdCiudad" />
+    </Key>
+    <Property Name="IdCiudad" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreCiudad" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CLIENTES">
+    <Key>
+      <PropertyRef Name="IdCliente" />
+    </Key>
+    <Property Name="IdCliente" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="NombresCliente" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="ApellidosCliente" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="TelefonoCliente" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="CorreoCliente" Type="varchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="DETALLE_FACTURA">
+    <Key>
+      <PropertyRef Name="IdDetalleFactura" />
+    </Key>
+    <Property Name="IdDetalleFactura" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Valor" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="IdBusesRuta" Type="int" Nullable="false" />
+    <Property Name="IdFactura" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FACTURAS">
+    <Key>
+      <PropertyRef Name="IdFactura" />
+    </Key>
+    <Property Name="IdFactura" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FechaFactura" Type="datetime" Nullable="false" />
+    <Property Name="IdCliente" Type="varchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="HORARIOS">
+    <Key>
+      <PropertyRef Name="IdHorario" />
+    </Key>
+    <Property Name="IdHorario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdRuta" Type="int" Nullable="false" />
+    <Property Name="Hora" Type="time" Nullable="false" Precision="7" />
+  </EntityType>
+  <EntityType Name="PUESTOS">
+    <Key>
+      <PropertyRef Name="IdPuesto" />
+    </Key>
+    <Property Name="IdPuesto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdBusRuta" Type="int" Nullable="false" />
+    <Property Name="NumeroPuesto" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RUTAS">
+    <Key>
+      <PropertyRef Name="IdRuta" />
+    </Key>
+    <Property Name="IdRuta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CiudadOrigen" Type="int" Nullable="false" />
+    <Property Name="CiudadDestino" Type="int" Nullable="false" />
+    <Property Name="Valor" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" Nullable="true" />
+    <Property Name="definition" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <Association Name="FK_BUSES_RUTAS_BUSES">
+    <End Role="BUSES" Type="PasajesBDModel.Store.BUSES" Multiplicity="1" />
+    <End Role="BUSES_RUTAS" Type="PasajesBDModel.Store.BUSES_RUTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BUSES">
+        <PropertyRef Name="IdBus" />
+      </Principal>
+      <Dependent Role="BUSES_RUTAS">
+        <PropertyRef Name="idBus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETALLE_FACTURA_BUSES_RUTAS">
+    <End Role="BUSES_RUTAS" Type="PasajesBDModel.Store.BUSES_RUTAS" Multiplicity="1" />
+    <End Role="DETALLE_FACTURA" Type="PasajesBDModel.Store.DETALLE_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BUSES_RUTAS">
+        <PropertyRef Name="IdBusRuta" />
+      </Principal>
+      <Dependent Role="DETALLE_FACTURA">
+        <PropertyRef Name="IdBusesRuta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PUESTOS_BUSES_RUTAS">
+    <End Role="BUSES_RUTAS" Type="PasajesBDModel.Store.BUSES_RUTAS" Multiplicity="1" />
+    <End Role="PUESTOS" Type="PasajesBDModel.Store.PUESTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BUSES_RUTAS">
+        <PropertyRef Name="IdBusRuta" />
+      </Principal>
+      <Dependent Role="PUESTOS">
+        <PropertyRef Name="IdBusRuta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RUTAS_CIUDADES">
+    <End Role="CIUDADES" Type="PasajesBDModel.Store.CIUDADES" Multiplicity="1" />
+    <End Role="RUTAS" Type="PasajesBDModel.Store.RUTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CIUDADES">
+        <PropertyRef Name="IdCiudad" />
+      </Principal>
+      <Dependent Role="RUTAS">
+        <PropertyRef Name="CiudadOrigen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RUTAS_CIUDADES1">
+    <End Role="CIUDADES" Type="PasajesBDModel.Store.CIUDADES" Multiplicity="1" />
+    <End Role="RUTAS" Type="PasajesBDModel.Store.RUTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CIUDADES">
+        <PropertyRef Name="IdCiudad" />
+      </Principal>
+      <Dependent Role="RUTAS">
+        <PropertyRef Name="CiudadDestino" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FACTURAS_CLIENTES">
+    <End Role="CLIENTES" Type="PasajesBDModel.Store.CLIENTES" Multiplicity="1" />
+    <End Role="FACTURAS" Type="PasajesBDModel.Store.FACTURAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTES">
+        <PropertyRef Name="IdCliente" />
+      </Principal>
+      <Dependent Role="FACTURAS">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETALLE_FACTURA_FACTURAS">
+    <End Role="FACTURAS" Type="PasajesBDModel.Store.FACTURAS" Multiplicity="1" />
+    <End Role="DETALLE_FACTURA" Type="PasajesBDModel.Store.DETALLE_FACTURA" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="FACTURAS">
+        <PropertyRef Name="IdFactura" />
+      </Principal>
+      <Dependent Role="DETALLE_FACTURA">
+        <PropertyRef Name="IdDetalleFactura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HORARIOS_RUTAS">
+    <End Role="RUTAS" Type="PasajesBDModel.Store.RUTAS" Multiplicity="1" />
+    <End Role="HORARIOS" Type="PasajesBDModel.Store.HORARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RUTAS">
+        <PropertyRef Name="IdRuta" />
+      </Principal>
+      <Dependent Role="HORARIOS">
+        <PropertyRef Name="IdRuta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BUSES_RUTAS_HORARIOS">
+    <End Role="HORARIOS" Type="PasajesBDModel.Store.HORARIOS" Multiplicity="1" />
+    <End Role="BUSES_RUTAS" Type="PasajesBDModel.Store.BUSES_RUTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HORARIOS">
+        <PropertyRef Name="IdHorario" />
+      </Principal>
+      <Dependent Role="BUSES_RUTAS">
+        <PropertyRef Name="IdHorario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

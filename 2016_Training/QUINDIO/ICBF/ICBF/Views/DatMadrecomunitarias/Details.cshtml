@@ -1,0 +1,51 @@
+﻿@model ICBF.Models.DatMadrecomunitaria
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DatMadrecomunitaria</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nom_ape)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom_ape)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.telefono)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telefono)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dire)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dire)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fec_nac)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fec_nac)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.cedula }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

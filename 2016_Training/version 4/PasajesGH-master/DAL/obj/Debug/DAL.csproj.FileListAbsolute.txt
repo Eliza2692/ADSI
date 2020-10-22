@@ -1,0 +1,40 @@
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\DAL\bin\Debug\DAL.dll.config
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\DAL\bin\Debug\DAL.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\DAL\bin\Debug\DAL.pdb
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\DAL\obj\Debug\DAL.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\DAL\obj\Debug\DAL.pdb
+Z:\PASAJES-20160916T205713Z\PASAJES\DAL\bin\Debug\DAL.dll.config
+Z:\PASAJES-20160916T205713Z\PASAJES\DAL\bin\Debug\DAL.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\DAL\bin\Debug\DAL.pdb
+Z:\PASAJES-20160916T205713Z\PASAJES\DAL\bin\Debug\EntityFramework.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\DAL\bin\Debug\EntityFramework.SqlServer.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\DAL\bin\Debug\EntityFramework.xml
+Z:\PASAJES-20160916T205713Z\PASAJES\DAL\bin\Debug\EntityFramework.SqlServer.xml
+Z:\PASAJES-20160916T205713Z\PASAJES\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+Z:\PASAJES-20160916T205713Z\PASAJES\DAL\obj\Debug\DAL.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\DAL\obj\Debug\DAL.pdb
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\DAL\bin\Debug\DAL.dll.config
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\DAL\bin\Debug\DAL.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\DAL\bin\Debug\DAL.pdb
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\DAL\bin\Debug\EntityFramework.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\DAL\bin\Debug\EntityFramework.xml
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\DAL\obj\Debug\DAL.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\DAL\obj\Debug\DAL.pdb
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\DAL\bin\Debug\DAL.dll.config
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\DAL\bin\Debug\DAL.dll
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\DAL\bin\Debug\DAL.pdb
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\DAL\bin\Debug\EntityFramework.dll
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\DAL\bin\Debug\EntityFramework.xml
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\DAL\obj\Debug\DAL.dll
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\DAL\obj\Debug\DAL.pdb

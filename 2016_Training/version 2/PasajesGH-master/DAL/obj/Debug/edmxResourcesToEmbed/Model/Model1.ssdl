@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PasajesBDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BUSES">
+    <Key>
+      <PropertyRef Name="IdBus" />
+    </Key>
+    <Property Name="IdBus" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="PlacaBus" Type="varchar" MaxLength="6" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BUSES_RUTAS">
+    <Key>
+      <PropertyRef Name="IdBusRuta" />
+    </Key>
+    <Property Name="IdBusRuta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idBus" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="IdHorario" Type="int" Nullable="false" />
+    <Property Name="FechaRuta" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CIUDADES">
+    <Key>
+      <PropertyRef Name="IdCiudad" />
+    </Key>
+    <Property Name="IdCiudad" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreCiudad" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CLIENTES">
+    <Key>
+      <PropertyRef Name="IdCliente" />
+    </Key>
+    <Property Name="IdCliente" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="NombresCliente" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ApellidosCliente" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="TelefonoCliente" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CorreoCliente" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DETALLE_FACTURA">
+    <Key>
+      <PropertyRef Name="IdDetalleFactura" />
+    </Key>
+    <Property Name="IdDetalleFactura" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Valor" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="IdBusesRuta" Type="int" Nullable="false" />
+    <Property Name="IdFactura" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FACTURAS">
+    <Key>
+      <PropertyRef Name="IdFactura" />
+    </Key>
+    <Property Name="IdFactura" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FechaFactura" Type="datetime" Nullable="false" />
+    <Property Name="IdCliente" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HORARIOS">
+    <Key>
+      <PropertyRef Name="IdHorario" />
+    </Key>
+    <Property Name="IdHorario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdRuta" Type="int" Nullable="false" />
+    <Property Name="Hora" Type="time" Precision="7" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PUESTOS">
+    <Key>
+      <PropertyRef Name="IdPuesto" />
+    </Key>
+    <Property Name="IdPuesto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdBusRuta" Type="int" Nullable="false" />
+    <Property Name="NumeroPuesto" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RUTAS">
+    <Key>
+      <PropertyRef Name="IdRuta" />
+    </Key>
+    <Property Name="IdRuta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CiudadOrigen" Type="int" Nullable="false" />
+    <Property Name="CiudadDestino" Type="int" Nullable="false" />
+    <Property Name="Valor" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_BUSES_RUTAS_BUSES">
+    <End Role="BUSES" Type="Self.BUSES" Multiplicity="1" />
+    <End Role="BUSES_RUTAS" Type="Self.BUSES_RUTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BUSES">
+        <PropertyRef Name="IdBus" />
+      </Principal>
+      <Dependent Role="BUSES_RUTAS">
+        <PropertyRef Name="idBus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BUSES_RUTAS_HORARIOS">
+    <End Role="HORARIOS" Type="Self.HORARIOS" Multiplicity="1" />
+    <End Role="BUSES_RUTAS" Type="Self.BUSES_RUTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HORARIOS">
+        <PropertyRef Name="IdHorario" />
+      </Principal>
+      <Dependent Role="BUSES_RUTAS">
+        <PropertyRef Name="IdHorario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETALLE_FACTURA_BUSES_RUTAS">
+    <End Role="BUSES_RUTAS" Type="Self.BUSES_RUTAS" Multiplicity="1" />
+    <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BUSES_RUTAS">
+        <PropertyRef Name="IdBusRuta" />
+      </Principal>
+      <Dependent Role="DETALLE_FACTURA">
+        <PropertyRef Name="IdBusesRuta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETALLE_FACTURA_FACTURAS">
+    <End Role="FACTURAS" Type="Self.FACTURAS" Multiplicity="1" />
+    <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="FACTURAS">
+        <PropertyRef Name="IdFactura" />
+      </Principal>
+      <Dependent Role="DETALLE_FACTURA">
+        <PropertyRef Name="IdDetalleFactura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FACTURAS_CLIENTES">
+    <End Role="CLIENTES" Type="Self.CLIENTES" Multiplicity="1" />
+    <End Role="FACTURAS" Type="Self.FACTURAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTES">
+        <PropertyRef Name="IdCliente" />
+      </Principal>
+      <Dependent Role="FACTURAS">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HORARIOS_RUTAS">
+    <End Role="RUTAS" Type="Self.RUTAS" Multiplicity="1" />
+    <End Role="HORARIOS" Type="Self.HORARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RUTAS">
+        <PropertyRef Name="IdRuta" />
+      </Principal>
+      <Dependent Role="HORARIOS">
+        <PropertyRef Name="IdRuta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PUESTOS_BUSES_RUTAS">
+    <End Role="BUSES_RUTAS" Type="Self.BUSES_RUTAS" Multiplicity="1" />
+    <End Role="PUESTOS" Type="Self.PUESTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BUSES_RUTAS">
+        <PropertyRef Name="IdBusRuta" />
+      </Principal>
+      <Dependent Role="PUESTOS">
+        <PropertyRef Name="IdBusRuta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RUTAS_CIUDADES">
+    <End Role="CIUDADES" Type="Self.CIUDADES" Multiplicity="1" />
+    <End Role="RUTAS" Type="Self.RUTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CIUDADES">
+        <PropertyRef Name="IdCiudad" />
+      </Principal>
+      <Dependent Role="RUTAS">
+        <PropertyRef Name="CiudadOrigen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RUTAS_CIUDADES1">
+    <End Role="CIUDADES" Type="Self.CIUDADES" Multiplicity="1" />
+    <End Role="RUTAS" Type="Self.RUTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CIUDADES">
+        <PropertyRef Name="IdCiudad" />
+      </Principal>
+      <Dependent Role="RUTAS">
+        <PropertyRef Name="CiudadDestino" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="PasajesBDModelStoreContainer">
+    <EntitySet Name="BUSES" EntityType="Self.BUSES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BUSES_RUTAS" EntityType="Self.BUSES_RUTAS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CIUDADES" EntityType="Self.CIUDADES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CLIENTES" EntityType="Self.CLIENTES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DETALLE_FACTURA" EntityType="Self.DETALLE_FACTURA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FACTURAS" EntityType="Self.FACTURAS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HORARIOS" EntityType="Self.HORARIOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PUESTOS" EntityType="Self.PUESTOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RUTAS" EntityType="Self.RUTAS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_BUSES_RUTAS_BUSES" Association="Self.FK_BUSES_RUTAS_BUSES">
+      <End Role="BUSES" EntitySet="BUSES" />
+      <End Role="BUSES_RUTAS" EntitySet="BUSES_RUTAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BUSES_RUTAS_HORARIOS" Association="Self.FK_BUSES_RUTAS_HORARIOS">
+      <End Role="HORARIOS" EntitySet="HORARIOS" />
+      <End Role="BUSES_RUTAS" EntitySet="BUSES_RUTAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETALLE_FACTURA_BUSES_RUTAS" Association="Self.FK_DETALLE_FACTURA_BUSES_RUTAS">
+      <End Role="BUSES_RUTAS" EntitySet="BUSES_RUTAS" />
+      <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETALLE_FACTURA_FACTURAS" Association="Self.FK_DETALLE_FACTURA_FACTURAS">
+      <End Role="FACTURAS" EntitySet="FACTURAS" />
+      <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FACTURAS_CLIENTES" Association="Self.FK_FACTURAS_CLIENTES">
+      <End Role="CLIENTES" EntitySet="CLIENTES" />
+      <End Role="FACTURAS" EntitySet="FACTURAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HORARIOS_RUTAS" Association="Self.FK_HORARIOS_RUTAS">
+      <End Role="RUTAS" EntitySet="RUTAS" />
+      <End Role="HORARIOS" EntitySet="HORARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PUESTOS_BUSES_RUTAS" Association="Self.FK_PUESTOS_BUSES_RUTAS">
+      <End Role="BUSES_RUTAS" EntitySet="BUSES_RUTAS" />
+      <End Role="PUESTOS" EntitySet="PUESTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RUTAS_CIUDADES" Association="Self.FK_RUTAS_CIUDADES">
+      <End Role="CIUDADES" EntitySet="CIUDADES" />
+      <End Role="RUTAS" EntitySet="RUTAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RUTAS_CIUDADES1" Association="Self.FK_RUTAS_CIUDADES1">
+      <End Role="CIUDADES" EntitySet="CIUDADES" />
+      <End Role="RUTAS" EntitySet="RUTAS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

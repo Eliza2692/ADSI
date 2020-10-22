@@ -1,0 +1,43 @@
+﻿@model ICBF.Models.asignacionjardin
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>asignacionjardin</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_asig)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_asig)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Datninos.nomape)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Datninos.nomape)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Regjardines.ced)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Regjardines.ced)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

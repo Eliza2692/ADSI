@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d72bf541749d4d758603a6f6597f2ebc" Name="Diagram1">
+        <EntityTypeShape EntityType="baseicbfModel.asignacionjardin" Width="1.5" PointX="5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="baseicbfModel.Dacudiente" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="baseicbfModel.DatMadrecomunitaria" Width="1.5" PointX="9" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="baseicbfModel.Datninos" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="baseicbfModel.regasistencia" Width="1.5" PointX="7.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="baseicbfModel.Regjardines" Width="1.5" PointX="6.875" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="baseicbfModel.RegNotas" Width="1.5" PointX="4.5" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="baseicbfModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="baseicbfModel.usuarios" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <AssociationConnector Association="baseicbfModel.FK_asignacionjardin_Datninos" ManuallyRouted="false" />
+        <AssociationConnector Association="baseicbfModel.FK_asignacionjardin_Regjardines" ManuallyRouted="false" />
+        <AssociationConnector Association="baseicbfModel.FK_Datninos_Dacudiente" ManuallyRouted="false" />
+        <AssociationConnector Association="baseicbfModel.FK_Regjardines_DatMadrecomunitaria" ManuallyRouted="false" />
+        <AssociationConnector Association="baseicbfModel.FK_regasistencia_Datninos" ManuallyRouted="false" />
+        <AssociationConnector Association="baseicbfModel.FK_RegNotas_Datninos" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

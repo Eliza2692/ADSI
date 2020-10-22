@@ -1,0 +1,9 @@
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\BLL\bin\Debug\BLL.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\BLL\bin\Debug\BLL.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\BLL\bin\Debug\DAL.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\BLL\bin\Debug\Entities.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\BLL\bin\Debug\DAL.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\BLL\bin\Debug\Entities.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\BLL\obj\Debug\BLL.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\BLL\obj\Debug\BLL.pdb

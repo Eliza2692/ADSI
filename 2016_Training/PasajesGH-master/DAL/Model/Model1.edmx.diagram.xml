@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1b916e7bb442403e9a16d096c867de26" Name="Diagram1">
+        <EntityTypeShape EntityType="PasajesBDModel.BUSES" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PasajesBDModel.BUSES_RUTAS" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PasajesBDModel.CIUDADES" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PasajesBDModel.CLIENTES" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PasajesBDModel.DETALLE_FACTURA" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PasajesBDModel.FACTURAS" Width="1.5" PointX="5.25" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PasajesBDModel.HORARIOS" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PasajesBDModel.PUESTOS" Width="1.5" PointX="7.5" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PasajesBDModel.RUTAS" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PasajesBDModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="PasajesBDModel.FK_BUSES_RUTAS_BUSES" ManuallyRouted="false" />
+        <AssociationConnector Association="PasajesBDModel.FK_BUSES_RUTAS_RUTAS" ManuallyRouted="false" />
+        <AssociationConnector Association="PasajesBDModel.FK_DETALLE_FACTURA_BUSES_RUTAS" ManuallyRouted="false" />
+        <AssociationConnector Association="PasajesBDModel.FK_PUESTOS_BUSES_RUTAS" ManuallyRouted="false" />
+        <AssociationConnector Association="PasajesBDModel.FK_RUTAS_CIUDADES" ManuallyRouted="false" />
+        <AssociationConnector Association="PasajesBDModel.FK_RUTAS_CIUDADES1" ManuallyRouted="false" />
+        <AssociationConnector Association="PasajesBDModel.FK_FACTURAS_CLIENTES" ManuallyRouted="false" />
+        <AssociationConnector Association="PasajesBDModel.FK_DETALLE_FACTURA_FACTURAS" ManuallyRouted="false" />
+        <AssociationConnector Association="PasajesBDModel.FK_HORARIOS_RUTAS" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

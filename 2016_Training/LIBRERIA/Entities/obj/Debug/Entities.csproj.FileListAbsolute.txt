@@ -1,0 +1,4 @@
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\Entities\bin\Debug\Entities.dll
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\Entities\bin\Debug\Entities.pdb
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\Entities\obj\Debug\Entities.dll
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\Entities\obj\Debug\Entities.pdb

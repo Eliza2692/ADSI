@@ -1,0 +1,16 @@
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\bin\Debug\GUI.exe.config
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\bin\Debug\GUI.exe
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\bin\Debug\GUI.pdb
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\bin\Debug\DAL.dll
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\bin\Debug\Entities.dll
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\bin\Debug\DAL.pdb
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\bin\Debug\Entities.pdb
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\obj\Debug\GUI.FormCategorias.resources
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\obj\Debug\GUI.FormPrincipal.resources
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\obj\Debug\GUI.Properties.Resources.resources
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\obj\Debug\GUI.exe
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\obj\Debug\GUI.pdb
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\obj\Debug\GUI.FormProveedores.resources
+c:\users\sena-principal\documents\visual studio 2013\Projects\GUI\GUI\obj\Debug\GUI.FormProductos.resources

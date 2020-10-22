@@ -1,0 +1,43 @@
+﻿@model ICBF.Models.Regjardines
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Regjardines</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.dire)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dire)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.estado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DatMadrecomunitaria.nom_ape)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DatMadrecomunitaria.nom_ape)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.nom_jardin }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

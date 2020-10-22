@@ -1,0 +1,9 @@
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\BLL\bin\Debug\BLL.dll
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\BLL\bin\Debug\BLL.pdb
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\BLL\bin\Debug\DAL.dll
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\BLL\bin\Debug\Entities.dll
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\BLL\bin\Debug\DAL.pdb
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\BLL\bin\Debug\Entities.pdb
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\BLL\obj\Debug\BLL.dll
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\BLL\obj\Debug\BLL.pdb

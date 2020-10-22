@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PasajesBDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BUSES">
+    <Key>
+      <PropertyRef Name="IdBus" />
+    </Key>
+    <Property Name="IdBus" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PlacaBus" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="BUSES_RUTAS" Relationship="Self.FK_BUSES_RUTAS_BUSES" FromRole="BUSES" ToRole="BUSES_RUTAS" />
+  </EntityType>
+  <EntityType Name="BUSES_RUTAS">
+    <Key>
+      <PropertyRef Name="IdBusRuta" />
+    </Key>
+    <Property Name="IdBusRuta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idBus" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaRuta" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="BUSES" Relationship="Self.FK_BUSES_RUTAS_BUSES" FromRole="BUSES_RUTAS" ToRole="BUSES" />
+    <NavigationProperty Name="DETALLE_FACTURA" Relationship="Self.FK_DETALLE_FACTURA_BUSES_RUTAS" FromRole="BUSES_RUTAS" ToRole="DETALLE_FACTURA" />
+    <NavigationProperty Name="PUESTOS" Relationship="Self.FK_PUESTOS_BUSES_RUTAS" FromRole="BUSES_RUTAS" ToRole="PUESTOS" />
+    <Property Name="IdHorario" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="HORARIOS" Relationship="PasajesBDModel.FK_BUSES_RUTAS_HORARIOS" FromRole="BUSES_RUTAS" ToRole="HORARIOS" />
+  </EntityType>
+  <EntityType Name="CIUDADES">
+    <Key>
+      <PropertyRef Name="IdCiudad" />
+    </Key>
+    <Property Name="IdCiudad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombreCiudad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="RUTAS" Relationship="Self.FK_RUTAS_CIUDADES" FromRole="CIUDADES" ToRole="RUTAS" />
+    <NavigationProperty Name="RUTAS1" Relationship="Self.FK_RUTAS_CIUDADES1" FromRole="CIUDADES" ToRole="RUTAS" />
+  </EntityType>
+  <EntityType Name="CLIENTES">
+    <Key>
+      <PropertyRef Name="IdCliente" />
+    </Key>
+    <Property Name="IdCliente" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NombresCliente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ApellidosCliente" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="TelefonoCliente" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CorreoCliente" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="FACTURAS" Relationship="Self.FK_FACTURAS_CLIENTES" FromRole="CLIENTES" ToRole="FACTURAS" />
+  </EntityType>
+  <EntityType Name="DETALLE_FACTURA">
+    <Key>
+      <PropertyRef Name="IdDetalleFactura" />
+    </Key>
+    <Property Name="IdDetalleFactura" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Valor" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="IdBusesRuta" Type="Int32" Nullable="false" />
+    <Property Name="IdFactura" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="BUSES_RUTAS" Relationship="Self.FK_DETALLE_FACTURA_BUSES_RUTAS" FromRole="DETALLE_FACTURA" ToRole="BUSES_RUTAS" />
+    <NavigationProperty Name="FACTURAS" Relationship="Self.FK_DETALLE_FACTURA_FACTURAS" FromRole="DETALLE_FACTURA" ToRole="FACTURAS" />
+  </EntityType>
+  <EntityType Name="FACTURAS">
+    <Key>
+      <PropertyRef Name="IdFactura" />
+    </Key>
+    <Property Name="IdFactura" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FechaFactura" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="IdCliente" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="CLIENTES" Relationship="Self.FK_FACTURAS_CLIENTES" FromRole="FACTURAS" ToRole="CLIENTES" />
+    <NavigationProperty Name="DETALLE_FACTURA" Relationship="Self.FK_DETALLE_FACTURA_FACTURAS" FromRole="FACTURAS" ToRole="DETALLE_FACTURA" />
+  </EntityType>
+  <EntityType Name="HORARIOS">
+    <Key>
+      <PropertyRef Name="IdHorario" />
+    </Key>
+    <Property Name="IdHorario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdRuta" Type="Int32" Nullable="false" />
+    <Property Name="Hora" Type="Time" Nullable="false" Precision="7" />
+    <NavigationProperty Name="RUTAS" Relationship="Self.FK_HORARIOS_RUTAS" FromRole="HORARIOS" ToRole="RUTAS" />
+    <NavigationProperty Name="BUSES_RUTAS" Relationship="PasajesBDModel.FK_BUSES_RUTAS_HORARIOS" FromRole="HORARIOS" ToRole="BUSES_RUTAS" />
+  </EntityType>
+  <EntityType Name="PUESTOS">
+    <Key>
+      <PropertyRef Name="IdPuesto" />
+    </Key>
+    <Property Name="IdPuesto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdBusRuta" Type="Int32" Nullable="false" />
+    <Property Name="NumeroPuesto" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="BUSES_RUTAS" Relationship="Self.FK_PUESTOS_BUSES_RUTAS" FromRole="PUESTOS" ToRole="BUSES_RUTAS" />
+  </EntityType>
+  <EntityType Name="RUTAS">
+    <Key>
+      <PropertyRef Name="IdRuta" />
+    </Key>
+    <Property Name="IdRuta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CiudadOrigen" Type="Int32" Nullable="false" />
+    <Property Name="CiudadDestino" Type="Int32" Nullable="false" />
+    <Property Name="Valor" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <NavigationProperty Name="CIUDADES" Relationship="Self.FK_RUTAS_CIUDADES" FromRole="RUTAS" ToRole="CIUDADES" />
+    <NavigationProperty Name="CIUDADES1" Relationship="Self.FK_RUTAS_CIUDADES1" FromRole="RUTAS" ToRole="CIUDADES" />
+    <NavigationProperty Name="HORARIOS" Relationship="Self.FK_HORARIOS_RUTAS" FromRole="RUTAS" ToRole="HORARIOS" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_BUSES_RUTAS_BUSES">
+    <End Role="BUSES" Type="Self.BUSES" Multiplicity="1" />
+    <End Role="BUSES_RUTAS" Type="Self.BUSES_RUTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BUSES">
+        <PropertyRef Name="IdBus" />
+      </Principal>
+      <Dependent Role="BUSES_RUTAS">
+        <PropertyRef Name="idBus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETALLE_FACTURA_BUSES_RUTAS">
+    <End Role="BUSES_RUTAS" Type="Self.BUSES_RUTAS" Multiplicity="1" />
+    <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BUSES_RUTAS">
+        <PropertyRef Name="IdBusRuta" />
+      </Principal>
+      <Dependent Role="DETALLE_FACTURA">
+        <PropertyRef Name="IdBusesRuta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PUESTOS_BUSES_RUTAS">
+    <End Role="BUSES_RUTAS" Type="Self.BUSES_RUTAS" Multiplicity="1" />
+    <End Role="PUESTOS" Type="Self.PUESTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BUSES_RUTAS">
+        <PropertyRef Name="IdBusRuta" />
+      </Principal>
+      <Dependent Role="PUESTOS">
+        <PropertyRef Name="IdBusRuta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RUTAS_CIUDADES">
+    <End Role="CIUDADES" Type="Self.CIUDADES" Multiplicity="1" />
+    <End Role="RUTAS" Type="Self.RUTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CIUDADES">
+        <PropertyRef Name="IdCiudad" />
+      </Principal>
+      <Dependent Role="RUTAS">
+        <PropertyRef Name="CiudadOrigen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RUTAS_CIUDADES1">
+    <End Role="CIUDADES" Type="Self.CIUDADES" Multiplicity="1" />
+    <End Role="RUTAS" Type="Self.RUTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CIUDADES">
+        <PropertyRef Name="IdCiudad" />
+      </Principal>
+      <Dependent Role="RUTAS">
+        <PropertyRef Name="CiudadDestino" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FACTURAS_CLIENTES">
+    <End Role="CLIENTES" Type="Self.CLIENTES" Multiplicity="1" />
+    <End Role="FACTURAS" Type="Self.FACTURAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTES">
+        <PropertyRef Name="IdCliente" />
+      </Principal>
+      <Dependent Role="FACTURAS">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETALLE_FACTURA_FACTURAS">
+    <End Role="FACTURAS" Type="Self.FACTURAS" Multiplicity="1" />
+    <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="FACTURAS">
+        <PropertyRef Name="IdFactura" />
+      </Principal>
+      <Dependent Role="DETALLE_FACTURA">
+        <PropertyRef Name="IdDetalleFactura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HORARIOS_RUTAS">
+    <End Role="RUTAS" Type="Self.RUTAS" Multiplicity="1" />
+    <End Role="HORARIOS" Type="Self.HORARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RUTAS">
+        <PropertyRef Name="IdRuta" />
+      </Principal>
+      <Dependent Role="HORARIOS">
+        <PropertyRef Name="IdRuta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PasajesBDEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BUSES" EntityType="Self.BUSES" />
+    <EntitySet Name="BUSES_RUTAS" EntityType="Self.BUSES_RUTAS" />
+    <EntitySet Name="CIUDADES" EntityType="Self.CIUDADES" />
+    <EntitySet Name="CLIENTES" EntityType="Self.CLIENTES" />
+    <EntitySet Name="DETALLE_FACTURA" EntityType="Self.DETALLE_FACTURA" />
+    <EntitySet Name="FACTURAS" EntityType="Self.FACTURAS" />
+    <EntitySet Name="HORARIOS" EntityType="Self.HORARIOS" />
+    <EntitySet Name="PUESTOS" EntityType="Self.PUESTOS" />
+    <EntitySet Name="RUTAS" EntityType="Self.RUTAS" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_BUSES_RUTAS_BUSES" Association="Self.FK_BUSES_RUTAS_BUSES">
+      <End Role="BUSES" EntitySet="BUSES" />
+      <End Role="BUSES_RUTAS" EntitySet="BUSES_RUTAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETALLE_FACTURA_BUSES_RUTAS" Association="Self.FK_DETALLE_FACTURA_BUSES_RUTAS">
+      <End Role="BUSES_RUTAS" EntitySet="BUSES_RUTAS" />
+      <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PUESTOS_BUSES_RUTAS" Association="Self.FK_PUESTOS_BUSES_RUTAS">
+      <End Role="BUSES_RUTAS" EntitySet="BUSES_RUTAS" />
+      <End Role="PUESTOS" EntitySet="PUESTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RUTAS_CIUDADES" Association="Self.FK_RUTAS_CIUDADES">
+      <End Role="CIUDADES" EntitySet="CIUDADES" />
+      <End Role="RUTAS" EntitySet="RUTAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RUTAS_CIUDADES1" Association="Self.FK_RUTAS_CIUDADES1">
+      <End Role="CIUDADES" EntitySet="CIUDADES" />
+      <End Role="RUTAS" EntitySet="RUTAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FACTURAS_CLIENTES" Association="Self.FK_FACTURAS_CLIENTES">
+      <End Role="CLIENTES" EntitySet="CLIENTES" />
+      <End Role="FACTURAS" EntitySet="FACTURAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETALLE_FACTURA_FACTURAS" Association="Self.FK_DETALLE_FACTURA_FACTURAS">
+      <End Role="FACTURAS" EntitySet="FACTURAS" />
+      <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HORARIOS_RUTAS" Association="Self.FK_HORARIOS_RUTAS">
+      <End Role="RUTAS" EntitySet="RUTAS" />
+      <End Role="HORARIOS" EntitySet="HORARIOS" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(PasajesBDModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(PasajesBDModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <AssociationSet Name="FK_BUSES_RUTAS_HORARIOS" Association="PasajesBDModel.FK_BUSES_RUTAS_HORARIOS">
+      <End Role="HORARIOS" EntitySet="HORARIOS" />
+      <End Role="BUSES_RUTAS" EntitySet="BUSES_RUTAS" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram1">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram1">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram1">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition1" ReturnType="Collection(PasajesBDModel.sp_helpdiagramdefinition1_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams1" ReturnType="Collection(PasajesBDModel.sp_helpdiagrams1_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram1">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams1" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <Association Name="FK_BUSES_RUTAS_HORARIOS">
+    <End Type="PasajesBDModel.HORARIOS" Role="HORARIOS" Multiplicity="1" />
+    <End Type="PasajesBDModel.BUSES_RUTAS" Role="BUSES_RUTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HORARIOS">
+        <PropertyRef Name="IdHorario" />
+      </Principal>
+      <Dependent Role="BUSES_RUTAS">
+        <PropertyRef Name="IdHorario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="sp_helpdiagramdefinition1_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams1_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

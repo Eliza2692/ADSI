@@ -1,0 +1,58 @@
+﻿@model IEnumerable<ICBF.Models.DatMadrecomunitaria>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.cedula)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nom_ape)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.telefono)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dire)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fec_nac)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.cedula)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nom_ape)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.telefono)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dire)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fec_nac)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.cedula }) |
+            @Html.ActionLink("Details", "Details", new { id=item.cedula }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.cedula })
+        </td>
+    </tr>
+}
+
+</table>

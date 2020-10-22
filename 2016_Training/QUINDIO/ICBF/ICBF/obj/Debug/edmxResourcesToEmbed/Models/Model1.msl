@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="baseicbfModelStoreContainer" CdmEntityContainer="baseicbfEntities">
+    <EntitySetMapping Name="asignacionjardin">
+      <EntityTypeMapping TypeName="baseicbfModel.asignacionjardin">
+        <MappingFragment StoreEntitySet="asignacionjardin">
+          <ScalarProperty Name="niup" ColumnName="niup" />
+          <ScalarProperty Name="nomjar" ColumnName="nomjar" />
+          <ScalarProperty Name="fecha_asig" ColumnName="fecha_asig" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dacudiente">
+      <EntityTypeMapping TypeName="baseicbfModel.Dacudiente">
+        <MappingFragment StoreEntitySet="Dacudiente">
+          <ScalarProperty Name="ide_acu" ColumnName="ide_acu" />
+          <ScalarProperty Name="nom_ape" ColumnName="nom_ape" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="dire" ColumnName="dire" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DatMadrecomunitaria">
+      <EntityTypeMapping TypeName="baseicbfModel.DatMadrecomunitaria">
+        <MappingFragment StoreEntitySet="DatMadrecomunitaria">
+          <ScalarProperty Name="cedula" ColumnName="cedula" />
+          <ScalarProperty Name="nom_ape" ColumnName="nom_ape" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="dire" ColumnName="dire" />
+          <ScalarProperty Name="fec_nac" ColumnName="fec_nac" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Datninos">
+      <EntityTypeMapping TypeName="baseicbfModel.Datninos">
+        <MappingFragment StoreEntitySet="Datninos">
+          <ScalarProperty Name="niup" ColumnName="niup" />
+          <ScalarProperty Name="nomape" ColumnName="nomape" />
+          <ScalarProperty Name="tip_san" ColumnName="tip_san" />
+          <ScalarProperty Name="ciu_nac" ColumnName="ciu_nac" />
+          <ScalarProperty Name="ide_acu" ColumnName="ide_acu" />
+          <ScalarProperty Name="fec_nac" ColumnName="fec_nac" />
+          <ScalarProperty Name="dir" ColumnName="dir" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="eps" ColumnName="eps" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="regasistencia">
+      <EntityTypeMapping TypeName="baseicbfModel.regasistencia">
+        <MappingFragment StoreEntitySet="regasistencia">
+          <ScalarProperty Name="niup" ColumnName="niup" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="estado_nino" ColumnName="estado_nino" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Regjardines">
+      <EntityTypeMapping TypeName="baseicbfModel.Regjardines">
+        <MappingFragment StoreEntitySet="Regjardines">
+          <ScalarProperty Name="ced" ColumnName="ced" />
+          <ScalarProperty Name="nom_jardin" ColumnName="nom_jardin" />
+          <ScalarProperty Name="dire" ColumnName="dire" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RegNotas">
+      <EntityTypeMapping TypeName="baseicbfModel.RegNotas">
+        <MappingFragment StoreEntitySet="RegNotas">
+          <ScalarProperty Name="niup" ColumnName="niup" />
+          <ScalarProperty Name="ano_escolar" ColumnName="ano_escolar" />
+          <ScalarProperty Name="nivel" ColumnName="nivel" />
+          <ScalarProperty Name="nota" ColumnName="nota" />
+          <ScalarProperty Name="fec" ColumnName="fec" />
+          <ScalarProperty Name="observaciones" ColumnName="observaciones" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="baseicbfModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuarios">
+      <EntityTypeMapping TypeName="baseicbfModel.usuarios">
+        <MappingFragment StoreEntitySet="usuarios">
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="clave" ColumnName="clave" />
+          <ScalarProperty Name="tipo_usuario" ColumnName="tipo_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="baseicbfModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="baseicbfModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="baseicbfModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="baseicbfModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="baseicbfModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="baseicbfModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="baseicbfModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="baseicbfModel.Store.sp_renamediagram" />
+  </EntityContainerMapping>
+</Mapping>

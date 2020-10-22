@@ -1,0 +1,20 @@
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\SECURITY\bin\Debug\SECURITY.dll.config
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\SECURITY\bin\Debug\SECURITY.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\SECURITY\bin\Debug\SECURITY.pdb
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\SECURITY\bin\Debug\EntityFramework.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\SECURITY\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\SECURITY\bin\Debug\EntityFramework.xml
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\SECURITY\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\SECURITY\obj\Debug\SECURITY.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\SECURITY\obj\Debug\SECURITY.pdb
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\SECURITY\obj\Debug\SECURITY.csprojResolveAssemblyReference.cache
+Z:\PASAJES-20160916T205713Z\PASAJES\SECURITY\bin\Debug\SECURITY.dll.config
+Z:\PASAJES-20160916T205713Z\PASAJES\SECURITY\bin\Debug\SECURITY.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\SECURITY\bin\Debug\SECURITY.pdb
+Z:\PASAJES-20160916T205713Z\PASAJES\SECURITY\bin\Debug\EntityFramework.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\SECURITY\bin\Debug\EntityFramework.SqlServer.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\SECURITY\bin\Debug\EntityFramework.xml
+Z:\PASAJES-20160916T205713Z\PASAJES\SECURITY\bin\Debug\EntityFramework.SqlServer.xml
+Z:\PASAJES-20160916T205713Z\PASAJES\SECURITY\obj\Debug\SECURITY.csprojResolveAssemblyReference.cache
+Z:\PASAJES-20160916T205713Z\PASAJES\SECURITY\obj\Debug\SECURITY.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\SECURITY\obj\Debug\SECURITY.pdb

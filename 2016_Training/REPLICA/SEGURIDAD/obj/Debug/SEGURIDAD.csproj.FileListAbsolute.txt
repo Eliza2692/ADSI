@@ -1,0 +1,4 @@
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\SEGURIDAD\bin\Debug\SEGURIDAD.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\SEGURIDAD\bin\Debug\SEGURIDAD.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\SEGURIDAD\obj\Debug\SEGURIDAD.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\SEGURIDAD\obj\Debug\SEGURIDAD.pdb

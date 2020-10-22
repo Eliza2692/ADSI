@@ -1,0 +1,18 @@
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\Misc\bin\Debug\Misc.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\Misc\bin\Debug\Misc.pdb
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\Misc\obj\Debug\Misc.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\Misc\obj\Debug\Misc.pdb
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\Misc\obj\Debug\Misc.csprojResolveAssemblyReference.cache
+Z:\PASAJES-20160916T205713Z\PASAJES\Misc\bin\Debug\Misc.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\Misc\bin\Debug\Misc.pdb
+Z:\PASAJES-20160916T205713Z\PASAJES\Misc\obj\Debug\Misc.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\Misc\obj\Debug\Misc.pdb
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\Misc\bin\Debug\Misc.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\Misc\bin\Debug\Misc.pdb
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\Misc\obj\Debug\Misc.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\Misc\obj\Debug\Misc.pdb
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\Misc\bin\Debug\Misc.dll
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\Misc\bin\Debug\Misc.pdb
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\Misc\obj\Debug\Misc.csprojResolveAssemblyReference.cache
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\Misc\obj\Debug\Misc.dll
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\Misc\obj\Debug\Misc.pdb

@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "NinosJardin";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>NinosJardin</h2>
+
+<table class="table" id="tabla">
+    <tr>
+        <th>
+           aaaa
+        </th>
+        <th>
+            eeee
+        </th>
+       >
+    </tr>
+
+    }
+
+</table>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            //var tabla = "<table class='table' id='tabla'> <tr><th>JARDIN</th><th>CANTIDAD></th>";
+
+            
+
+            $.ajax({
+
+                dataType: 'json',
+                url: '@Url.Action("NinosJardin")',
+                type: 'POST',
+                success: function (ninos) {
+                    $.each(ninos, function (i, m) {
+                        //$("#ced").append('<option value = "' + m.Value + '">' + m.Text + '</option>');
+
+                        $("#tabla").append('<tr><td>' + m.Value + '</td>' + '<td>' + m.Text + '</td></tr>');
+
+                    });
+
+                    html
+
+                },
+
+            });
+
+
+        });
+
+    </script>
+
+

@@ -1,0 +1,4 @@
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\AHORCADO\DAL\bin\Debug\DAL.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\AHORCADO\DAL\bin\Debug\DAL.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\AHORCADO\DAL\obj\Debug\DAL.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\AHORCADO\DAL\obj\Debug\DAL.pdb

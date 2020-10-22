@@ -1,0 +1,101 @@
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\bin\Debug\GUI.exe.config
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\bin\Debug\GUI.exe
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\bin\Debug\GUI.pdb
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\bin\Debug\BLL.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\bin\Debug\DAL.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\bin\Debug\EntityFramework.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\bin\Debug\Misc.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\bin\Debug\SECURITY.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\bin\Debug\BLL.pdb
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\bin\Debug\DAL.pdb
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\bin\Debug\Misc.pdb
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\bin\Debug\SECURITY.pdb
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\bin\Debug\EntityFramework.xml
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\obj\Debug\GUI.FormPrincipal.resources
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\obj\Debug\GUI.Gestion.FormCiudades.resources
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\obj\Debug\GUI.Gestion.FormCliente.resources
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\obj\Debug\GUI.exe
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\obj\Debug\GUI.pdb
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\GUI\obj\Debug\GUI.Gestion.FormBuses.resources
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\bin\Debug\GUI.exe.config
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\obj\Debug\GUI.exe
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\obj\Debug\GUI.pdb
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\obj\Debug\GUI.FormPrincipal.resources
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\obj\Debug\GUI.Gestion.FormBuses.resources
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\obj\Debug\GUI.Gestion.FormCiudades.resources
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\obj\Debug\GUI.Gestion.FormCliente.resources
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\obj\Debug\GUI.Gestion.FormRutas.resources
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\obj\Debug\GUI.Properties.Resources.resources
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\bin\Debug\GUI.exe
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\bin\Debug\GUI.pdb
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\bin\Debug\BLL.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\bin\Debug\DAL.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\bin\Debug\EntityFramework.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\bin\Debug\EntityFramework.SqlServer.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\bin\Debug\Misc.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\bin\Debug\SECURITY.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\bin\Debug\BLL.pdb
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\bin\Debug\DAL.pdb
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\bin\Debug\Misc.pdb
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\bin\Debug\SECURITY.pdb
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\bin\Debug\EntityFramework.xml
+Z:\PASAJES-20160916T205713Z\PASAJES\GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\obj\Debug\GUI.FormPrincipal.resources
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\obj\Debug\GUI.Gestion.FormBuses.resources
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\obj\Debug\GUI.Gestion.FormCiudades.resources
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\obj\Debug\GUI.Gestion.FormCliente.resources
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\obj\Debug\GUI.Gestion.FormRutas.resources
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\bin\Debug\GUI.exe.config
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\bin\Debug\GUI.exe
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\bin\Debug\GUI.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\bin\Debug\BLL.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\bin\Debug\DAL.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\bin\Debug\EntityFramework.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\bin\Debug\Misc.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\bin\Debug\SECURITY.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\bin\Debug\BLL.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\bin\Debug\DAL.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\bin\Debug\Misc.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\bin\Debug\SECURITY.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\bin\Debug\EntityFramework.xml
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\obj\Debug\GUI.exe
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\GUI\obj\Debug\GUI.pdb
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\bin\Debug\GUI.exe.config
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\bin\Debug\GUI.exe
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\bin\Debug\GUI.pdb
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\bin\Debug\BLL.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\bin\Debug\DAL.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\bin\Debug\EntityFramework.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\bin\Debug\Misc.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\bin\Debug\SECURITY.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\bin\Debug\BLL.pdb
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\bin\Debug\DAL.pdb
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\bin\Debug\Misc.pdb
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\bin\Debug\SECURITY.pdb
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\bin\Debug\EntityFramework.xml
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\obj\Debug\GUI.FormPrincipal.resources
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\obj\Debug\GUI.Gestion.FormBuses.resources
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\obj\Debug\GUI.Gestion.FormBusesRutas.resources
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\obj\Debug\GUI.Gestion.FormCiudades.resources
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\obj\Debug\GUI.Gestion.FormCliente.resources
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\obj\Debug\GUI.Gestion.FormRutas.resources
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\obj\Debug\GUI.exe
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\obj\Debug\GUI.pdb
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\GUI\obj\Debug\GUI.Ventas.FormVentas.resources

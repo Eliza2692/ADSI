@@ -1,0 +1,83 @@
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\BLL\bin\Debug\BLL.dll.config
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\BLL\bin\Debug\BLL.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\BLL\bin\Debug\BLL.pdb
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\BLL\bin\Debug\DAL.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\BLL\bin\Debug\Misc.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\BLL\bin\Debug\DAL.pdb
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\BLL\bin\Debug\Misc.pdb
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\BLL\obj\Debug\BLL.dll
+C:\Users\Sena-Principal\documents\visual studio 2013\Projects\PASAJES\BLL\obj\Debug\BLL.pdb
+Z:\PASAJES-20160916T205713Z\PASAJES\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+Z:\PASAJES-20160916T205713Z\PASAJES\BLL\obj\Debug\BLL.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\BLL\obj\Debug\BLL.pdb
+Z:\PASAJES-20160916T205713Z\PASAJES\BLL\bin\Debug\BLL.dll.config
+Z:\PASAJES-20160916T205713Z\PASAJES\BLL\bin\Debug\BLL.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\BLL\bin\Debug\BLL.pdb
+Z:\PASAJES-20160916T205713Z\PASAJES\BLL\bin\Debug\DAL.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\BLL\bin\Debug\EntityFramework.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\BLL\bin\Debug\EntityFramework.SqlServer.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\BLL\bin\Debug\Misc.dll
+Z:\PASAJES-20160916T205713Z\PASAJES\BLL\bin\Debug\DAL.pdb
+Z:\PASAJES-20160916T205713Z\PASAJES\BLL\bin\Debug\Misc.pdb
+Z:\PASAJES-20160916T205713Z\PASAJES\BLL\bin\Debug\EntityFramework.xml
+Z:\PASAJES-20160916T205713Z\PASAJES\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\BLL\bin\Debug\BLL.dll.config
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\BLL\bin\Debug\BLL.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\BLL\bin\Debug\BLL.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\BLL\bin\Debug\DAL.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\BLL\bin\Debug\Misc.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\BLL\bin\Debug\DAL.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\BLL\bin\Debug\Misc.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\BLL\obj\Debug\BLL.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\PasajesGH-master\BLL\obj\Debug\BLL.pdb
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\BLL\bin\Debug\BLL.dll.config
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\BLL\bin\Debug\BLL.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\BLL\bin\Debug\BLL.pdb
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\BLL\bin\Debug\DAL.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\BLL\bin\Debug\EntityFramework.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\BLL\bin\Debug\Misc.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\BLL\bin\Debug\DAL.pdb
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\BLL\bin\Debug\Misc.pdb
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\BLL\bin\Debug\EntityFramework.xml
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\BLL\obj\Debug\BLL.dll
+C:\Users\TECNOPARQUE\Desktop\PasajesGH-master\BLL\obj\Debug\BLL.pdb
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\BLL\bin\Debug\BLL.dll.config
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\BLL\bin\Debug\BLL.dll
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\BLL\bin\Debug\BLL.pdb
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\BLL\bin\Debug\DAL.dll
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\BLL\bin\Debug\EntityFramework.dll
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\BLL\bin\Debug\Misc.dll
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\BLL\bin\Debug\DAL.pdb
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\BLL\bin\Debug\Misc.pdb
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\BLL\bin\Debug\EntityFramework.xml
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\BLL\obj\Debug\BLL.dll
+C:\Users\PC-RAMIREZ\Desktop\PasajesGH-master\BLL\obj\Debug\BLL.pdb
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\BLL\bin\Debug\BLL.dll.config
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\BLL\bin\Debug\BLL.dll
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\BLL\bin\Debug\BLL.pdb
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\BLL\bin\Debug\DAL.dll
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\BLL\bin\Debug\EntityFramework.dll
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\BLL\bin\Debug\Misc.dll
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\BLL\bin\Debug\DAL.pdb
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\BLL\bin\Debug\Misc.pdb
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\BLL\bin\Debug\EntityFramework.xml
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\BLL\obj\Debug\BLL.dll
+C:\Users\TECNOPARQUE\Downloads\version 4\PasajesGH-master\BLL\obj\Debug\BLL.pdb

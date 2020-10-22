@@ -1,0 +1,4 @@
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\Entities\bin\Debug\Entities.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\Entities\bin\Debug\Entities.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\Entities\obj\Debug\Entities.dll
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\REPLICA\Entities\obj\Debug\Entities.pdb

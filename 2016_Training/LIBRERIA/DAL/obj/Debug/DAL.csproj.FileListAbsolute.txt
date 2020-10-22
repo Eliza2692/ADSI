@@ -1,0 +1,5 @@
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\DAL\bin\Debug\DAL.dll
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\DAL\bin\Debug\DAL.pdb
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\DAL\obj\Debug\DAL.dll
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\DAL\obj\Debug\DAL.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\LIBRERIA\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache

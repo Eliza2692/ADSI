@@ -1,0 +1,4 @@
+c:\users\sena-principal\documents\visual studio 2013\Projects\EjemploSolution\SECURITY\bin\Debug\SECURITY.dll
+c:\users\sena-principal\documents\visual studio 2013\Projects\EjemploSolution\SECURITY\bin\Debug\SECURITY.pdb
+c:\users\sena-principal\documents\visual studio 2013\Projects\EjemploSolution\SECURITY\obj\Debug\SECURITY.dll
+c:\users\sena-principal\documents\visual studio 2013\Projects\EjemploSolution\SECURITY\obj\Debug\SECURITY.pdb

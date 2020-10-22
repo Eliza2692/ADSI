@@ -1,0 +1,5 @@
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\Security\bin\Debug\Security.dll
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\Security\bin\Debug\Security.pdb
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\Security\obj\Debug\Security.dll
+c:\users\sena-principal\documents\visual studio 2013\Projects\LIBRERIA\Security\obj\Debug\Security.pdb
+C:\Users\Sena-Principal\Documents\Visual Studio 2013\Projects\LIBRERIA\Security\obj\Debug\Security.csprojResolveAssemblyReference.cache

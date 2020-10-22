@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Home</h2>
+
+<div class="jumbotron">
+    <h1>REPORTES</h1>
+    <p> Sistema ICBF</p>
+
+</div>
+
+
+
+    
+    <div class="col-md-3">
+        <button class="alert-info">@Html.ActionLink("Niños por jardin", "NinosJardin", "Reportes") </button>
+    </div>

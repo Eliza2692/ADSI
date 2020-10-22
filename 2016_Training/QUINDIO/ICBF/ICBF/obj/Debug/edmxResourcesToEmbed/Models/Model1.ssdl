@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="baseicbfModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="asignacionjardin">
+    <Key>
+      <PropertyRef Name="niup" />
+      <PropertyRef Name="nomjar" />
+    </Key>
+    <Property Name="niup" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="nomjar" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="fecha_asig" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Dacudiente">
+    <Key>
+      <PropertyRef Name="ide_acu" />
+    </Key>
+    <Property Name="ide_acu" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="nom_ape" Type="nvarchar" MaxLength="40" />
+    <Property Name="telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="dire" Type="nvarchar" MaxLength="35" />
+    <Property Name="correo" Type="nvarchar" MaxLength="20" />
+    <Property Name="celular" Type="nvarchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DatMadrecomunitaria">
+    <Key>
+      <PropertyRef Name="cedula" />
+    </Key>
+    <Property Name="cedula" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="nom_ape" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="telefono" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="dire" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="fec_nac" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Datninos">
+    <Key>
+      <PropertyRef Name="niup" />
+    </Key>
+    <Property Name="niup" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="nomape" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="tip_san" Type="nchar" MaxLength="4" Nullable="false" />
+    <Property Name="ciu_nac" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="ide_acu" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="fec_nac" Type="date" Nullable="false" />
+    <Property Name="dir" Type="nvarchar" MaxLength="35" Nullable="false" />
+    <Property Name="tel" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="eps" Type="nvarchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <EntityType Name="regasistencia">
+    <Key>
+      <PropertyRef Name="niup" />
+      <PropertyRef Name="fecha" />
+    </Key>
+    <Property Name="niup" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="fecha" Type="date" Nullable="false" />
+    <Property Name="estado_nino" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Regjardines">
+    <Key>
+      <PropertyRef Name="nom_jardin" />
+    </Key>
+    <Property Name="ced" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="nom_jardin" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="dire" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="estado" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RegNotas">
+    <Key>
+      <PropertyRef Name="niup" />
+      <PropertyRef Name="fec" />
+    </Key>
+    <Property Name="niup" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="ano_escolar" Type="nchar" MaxLength="5" Nullable="false" />
+    <Property Name="nivel" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="nota" Type="nchar" MaxLength="1" Nullable="false" />
+    <Property Name="fec" Type="date" Nullable="false" />
+    <Property Name="observaciones" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="usuario" />
+    </Key>
+    <Property Name="usuario" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="clave" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="tipo_usuario" Type="nvarchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_asignacionjardin_Datninos">
+    <End Role="Datninos" Type="Self.Datninos" Multiplicity="1" />
+    <End Role="asignacionjardin" Type="Self.asignacionjardin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Datninos">
+        <PropertyRef Name="niup" />
+      </Principal>
+      <Dependent Role="asignacionjardin">
+        <PropertyRef Name="niup" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_asignacionjardin_Regjardines">
+    <End Role="Regjardines" Type="Self.Regjardines" Multiplicity="1" />
+    <End Role="asignacionjardin" Type="Self.asignacionjardin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Regjardines">
+        <PropertyRef Name="nom_jardin" />
+      </Principal>
+      <Dependent Role="asignacionjardin">
+        <PropertyRef Name="nomjar" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Datninos_Dacudiente">
+    <End Role="Dacudiente" Type="Self.Dacudiente" Multiplicity="1" />
+    <End Role="Datninos" Type="Self.Datninos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dacudiente">
+        <PropertyRef Name="ide_acu" />
+      </Principal>
+      <Dependent Role="Datninos">
+        <PropertyRef Name="ide_acu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_regasistencia_Datninos">
+    <End Role="Datninos" Type="Self.Datninos" Multiplicity="1" />
+    <End Role="regasistencia" Type="Self.regasistencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Datninos">
+        <PropertyRef Name="niup" />
+      </Principal>
+      <Dependent Role="regasistencia">
+        <PropertyRef Name="niup" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Regjardines_DatMadrecomunitaria">
+    <End Role="DatMadrecomunitaria" Type="Self.DatMadrecomunitaria" Multiplicity="1" />
+    <End Role="Regjardines" Type="Self.Regjardines" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DatMadrecomunitaria">
+        <PropertyRef Name="cedula" />
+      </Principal>
+      <Dependent Role="Regjardines">
+        <PropertyRef Name="ced" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RegNotas_Datninos">
+    <End Role="Datninos" Type="Self.Datninos" Multiplicity="1" />
+    <End Role="RegNotas" Type="Self.RegNotas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Datninos">
+        <PropertyRef Name="niup" />
+      </Principal>
+      <Dependent Role="RegNotas">
+        <PropertyRef Name="niup" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="baseicbfModelStoreContainer">
+    <EntitySet Name="asignacionjardin" EntityType="Self.asignacionjardin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Dacudiente" EntityType="Self.Dacudiente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DatMadrecomunitaria" EntityType="Self.DatMadrecomunitaria" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Datninos" EntityType="Self.Datninos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="regasistencia" EntityType="Self.regasistencia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Regjardines" EntityType="Self.Regjardines" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RegNotas" EntityType="Self.RegNotas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="usuarios" EntityType="Self.usuarios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_asignacionjardin_Datninos" Association="Self.FK_asignacionjardin_Datninos">
+      <End Role="Datninos" EntitySet="Datninos" />
+      <End Role="asignacionjardin" EntitySet="asignacionjardin" />
+    </AssociationSet>
+    <AssociationSet Name="FK_asignacionjardin_Regjardines" Association="Self.FK_asignacionjardin_Regjardines">
+      <End Role="Regjardines" EntitySet="Regjardines" />
+      <End Role="asignacionjardin" EntitySet="asignacionjardin" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Datninos_Dacudiente" Association="Self.FK_Datninos_Dacudiente">
+      <End Role="Dacudiente" EntitySet="Dacudiente" />
+      <End Role="Datninos" EntitySet="Datninos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_regasistencia_Datninos" Association="Self.FK_regasistencia_Datninos">
+      <End Role="Datninos" EntitySet="Datninos" />
+      <End Role="regasistencia" EntitySet="regasistencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Regjardines_DatMadrecomunitaria" Association="Self.FK_Regjardines_DatMadrecomunitaria">
+      <End Role="DatMadrecomunitaria" EntitySet="DatMadrecomunitaria" />
+      <End Role="Regjardines" EntitySet="Regjardines" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RegNotas_Datninos" Association="Self.FK_RegNotas_Datninos">
+      <End Role="Datninos" EntitySet="Datninos" />
+      <End Role="RegNotas" EntitySet="RegNotas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
