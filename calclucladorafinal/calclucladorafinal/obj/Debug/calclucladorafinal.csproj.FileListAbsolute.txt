@@ -1,0 +1,18 @@
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\calclucladorafinal\calclucladorafinal\bin\Debug\calclucladorafinal.exe.config
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\calclucladorafinal\calclucladorafinal\bin\Debug\calclucladorafinal.exe.config
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\calclucladorafinal\calclucladorafinal\obj\Debug\calclucladorafinal.csprojResolveAssemblyReference.cache
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\calclucladorafinal\calclucladorafinal\obj\Debug\calclucladorafinal.Form1.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\calclucladorafinal\calclucladorafinal\obj\Debug\calclucladorafinal.Properties.Resources.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\calclucladorafinal\calclucladorafinal\obj\Debug\calclucladorafinal.csproj.GenerateResource.Cache
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\calclucladorafinal\calclucladorafinal\bin\Debug\calclucladorafinal.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\calclucladorafinal\calclucladorafinal\bin\Debug\calclucladorafinal.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\calclucladorafinal\calclucladorafinal\obj\Debug\calclucladorafinal.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\calclucladorafinal\calclucladorafinal\obj\Debug\calclucladorafinal.pdb
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\calclucladorafinal\calclucladorafinal\obj\Debug\calclucladorafinal.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\calclucladorafinal\calclucladorafinal\obj\Debug\calclucladorafinal.pdb
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\calclucladorafinal\calclucladorafinal\bin\Debug\calclucladorafinal.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\calclucladorafinal\calclucladorafinal\bin\Debug\calclucladorafinal.pdb
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\calclucladorafinal\calclucladorafinal\obj\Debug\calclucladorafinal.csprojResolveAssemblyReference.cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\calclucladorafinal\calclucladorafinal\obj\Debug\calclucladorafinal.Form1.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\calclucladorafinal\calclucladorafinal\obj\Debug\calclucladorafinal.Properties.Resources.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\calclucladorafinal\calclucladorafinal\obj\Debug\calclucladorafinal.csproj.GenerateResource.Cache

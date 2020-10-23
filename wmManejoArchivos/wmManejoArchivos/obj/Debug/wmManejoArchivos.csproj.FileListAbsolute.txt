@@ -1,0 +1,2 @@
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\Lógica de programación y algoritmia\VISUAL C#\wmManejoArchivos (1)\wmManejoArchivos\bin\Debug\wmManejoArchivos.exe.config
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\Lógica de programación y algoritmia\VISUAL C#\wmManejoArchivos\wmManejoArchivos\bin\Debug\wmManejoArchivos.exe.config

@@ -1,0 +1,54 @@
+C:\Users\ALARCONTOP\AppData\Local\Temporary Projects\convertidor\bin\Debug\convertidor.exe.config
+C:\Users\ALARCONTOP\AppData\Local\Temporary Projects\convertidor\bin\Debug\convertidor.exe
+C:\Users\ALARCONTOP\AppData\Local\Temporary Projects\convertidor\bin\Debug\convertidor.pdb
+C:\Users\ALARCONTOP\AppData\Local\Temporary Projects\convertidor\obj\Debug\convertidor.csprojResolveAssemblyReference.cache
+C:\Users\ALARCONTOP\AppData\Local\Temporary Projects\convertidor\obj\Debug\convertidor.Form1.resources
+C:\Users\ALARCONTOP\AppData\Local\Temporary Projects\convertidor\obj\Debug\convertidor.Properties.Resources.resources
+C:\Users\ALARCONTOP\AppData\Local\Temporary Projects\convertidor\obj\Debug\convertidor.csproj.GenerateResource.Cache
+C:\Users\ALARCONTOP\AppData\Local\Temporary Projects\convertidor\obj\Debug\convertidor.exe
+C:\Users\ALARCONTOP\AppData\Local\Temporary Projects\convertidor\obj\Debug\convertidor.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Convertidor Binario\convertidor\convertidor\bin\Debug\convertidor.exe.config
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Convertidor Binario\convertidor\convertidor\obj\Debug\convertidor.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Convertidor Binario\convertidor\convertidor\obj\Debug\convertidor.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Convertidor Binario\convertidor\convertidor\bin\Debug\convertidor.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Convertidor Binario\convertidor\convertidor\bin\Debug\convertidor.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Convertidor Binario\convertidor\convertidor\obj\Debug\convertidor.csprojResolveAssemblyReference.cache
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Convertidor Binario\convertidor\convertidor\obj\Debug\convertidor.Form1.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Convertidor Binario\convertidor\convertidor\obj\Debug\convertidor.Properties.Resources.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Convertidor Binario\convertidor\convertidor\obj\Debug\convertidor.csproj.GenerateResource.Cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Convertidor Binario\convertidor\convertidor\bin\Debug\convertidor.exe.config
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Convertidor Binario\convertidor\convertidor\obj\Debug\convertidor.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Convertidor Binario\convertidor\convertidor\obj\Debug\convertidor.pdb
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Convertidor Binario\convertidor\convertidor\obj\Debug\convertidor.csprojResolveAssemblyReference.cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Convertidor Binario\convertidor\convertidor\obj\Debug\convertidor.Form1.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Convertidor Binario\convertidor\convertidor\obj\Debug\convertidor.Properties.Resources.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Convertidor Binario\convertidor\convertidor\obj\Debug\convertidor.csproj.GenerateResource.Cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Convertidor Binario\convertidor\convertidor\bin\Debug\convertidor.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Convertidor Binario\convertidor\convertidor\bin\Debug\convertidor.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\convertidor\convertidor\bin\Debug\convertidor.exe.config
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\convertidor\convertidor\obj\Debug\convertidor.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\convertidor\convertidor\obj\Debug\convertidor.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\convertidor\convertidor\bin\Debug\convertidor.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\convertidor\convertidor\bin\Debug\convertidor.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\convertidor\convertidor\obj\Debug\convertidor.csprojResolveAssemblyReference.cache
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\convertidor\convertidor\obj\Debug\convertidor.Form1.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\convertidor\convertidor\obj\Debug\convertidor.Properties.Resources.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\convertidor\convertidor\obj\Debug\convertidor.csproj.GenerateResource.Cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\convertidor\convertidor\bin\Debug\convertidor.exe.config
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\convertidor\convertidor\obj\Debug\convertidor.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\convertidor\convertidor\obj\Debug\convertidor.pdb
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\convertidor\convertidor\obj\Debug\convertidor.csprojResolveAssemblyReference.cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\convertidor\convertidor\obj\Debug\convertidor.Form1.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\convertidor\convertidor\obj\Debug\convertidor.Properties.Resources.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\convertidor\convertidor\obj\Debug\convertidor.csproj.GenerateResource.Cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\convertidor\convertidor\bin\Debug\convertidor.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\convertidor\convertidor\bin\Debug\convertidor.pdb
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\VISUAL C#\convertidor\convertidor\bin\Debug\convertidor.exe.config
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\VISUAL C#\convertidor\convertidor\obj\Debug\convertidor.exe
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\VISUAL C#\convertidor\convertidor\obj\Debug\convertidor.pdb
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\VISUAL C#\convertidor\convertidor\bin\Debug\convertidor.exe
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\VISUAL C#\convertidor\convertidor\bin\Debug\convertidor.pdb
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\VISUAL C#\convertidor\convertidor\obj\Debug\convertidor.csprojResolveAssemblyReference.cache
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\VISUAL C#\convertidor\convertidor\obj\Debug\convertidor.Form1.resources
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\VISUAL C#\convertidor\convertidor\obj\Debug\convertidor.Properties.Resources.resources
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\VISUAL C#\convertidor\convertidor\obj\Debug\convertidor.csproj.GenerateResource.Cache

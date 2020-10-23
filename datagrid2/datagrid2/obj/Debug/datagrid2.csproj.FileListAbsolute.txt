@@ -1,0 +1,20 @@
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\datagrid2\datagrid2\bin\Debug\datagrid2.exe.config
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\datagrid2\datagrid2\bin\Debug\datagrid2.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\datagrid2\datagrid2\bin\Debug\datagrid2.pdb
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\datagrid2\datagrid2\obj\Debug\datagrid2.Form1.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\datagrid2\datagrid2\obj\Debug\datagrid2.Properties.Resources.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\datagrid2\datagrid2\obj\Debug\datagrid2.csproj.GenerateResource.Cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\datagrid2\datagrid2\obj\Debug\datagrid2.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\datagrid2\datagrid2\obj\Debug\datagrid2.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\datagrid2\datagrid2\bin\Debug\datagrid2.exe.config
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\datagrid2\datagrid2\obj\Debug\datagrid2.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\datagrid2\datagrid2\obj\Debug\datagrid2.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\datagrid2\datagrid2\bin\Debug\datagrid2.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\datagrid2\datagrid2\bin\Debug\datagrid2.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\datagrid2\datagrid2\obj\Debug\datagrid2.csprojResolveAssemblyReference.cache
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\datagrid2\datagrid2\obj\Debug\datagrid2.Form1.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\datagrid2\datagrid2\obj\Debug\datagrid2.Properties.Resources.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\datagrid2\datagrid2\obj\Debug\datagrid2.csproj.GenerateResource.Cache
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\Lógica de programación y algoritmia\VISUAL C#\datagrid2\datagrid2\bin\Debug\datagrid2.exe.config
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\Lógica de programación y algoritmia\VISUAL C#\datagrid2\datagrid2\obj\Debug\datagrid2.exe
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\Lógica de programación y algoritmia\VISUAL C#\datagrid2\datagrid2\obj\Debug\datagrid2.pdb

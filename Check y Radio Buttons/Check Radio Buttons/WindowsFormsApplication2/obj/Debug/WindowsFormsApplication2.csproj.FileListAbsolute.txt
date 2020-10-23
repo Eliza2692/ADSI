@@ -1,0 +1,27 @@
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\Check y Radio Buttons\Check Radio Buttons\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb

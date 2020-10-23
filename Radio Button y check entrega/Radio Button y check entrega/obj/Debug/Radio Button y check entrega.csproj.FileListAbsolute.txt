@@ -1,0 +1,20 @@
+C:\Users\ALARCONTOP\AppData\Local\Temporary Projects\Radio Button y check entrega\bin\Debug\Radio Button y check entrega.exe.config
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\RadioButtons Entrega\Radio Button y check entrega\Radio Button y check entrega\bin\Debug\Radio Button y check entrega.exe.config
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\RadioButtons Entrega\Radio Button y check entrega\Radio Button y check entrega\bin\Debug\Radio Button y check entrega.exe.config
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\RadioButtons Entrega\Radio Button y check entrega\Radio Button y check entrega\bin\Debug\Radio Button y check entrega.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\RadioButtons Entrega\Radio Button y check entrega\Radio Button y check entrega\bin\Debug\Radio Button y check entrega.pdb
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\RadioButtons Entrega\Radio Button y check entrega\Radio Button y check entrega\obj\Debug\Radio Button y check entrega.csprojResolveAssemblyReference.cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\RadioButtons Entrega\Radio Button y check entrega\Radio Button y check entrega\obj\Debug\Radio_Button_y_check_entrega.Form1.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\RadioButtons Entrega\Radio Button y check entrega\Radio Button y check entrega\obj\Debug\Radio_Button_y_check_entrega.Properties.Resources.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\RadioButtons Entrega\Radio Button y check entrega\Radio Button y check entrega\obj\Debug\Radio Button y check entrega.csproj.GenerateResource.Cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\RadioButtons Entrega\Radio Button y check entrega\Radio Button y check entrega\obj\Debug\Radio Button y check entrega.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\RadioButtons Entrega\Radio Button y check entrega\Radio Button y check entrega\obj\Debug\Radio Button y check entrega.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\Radio Button y check entrega\Radio Button y check entrega\bin\Debug\Radio Button y check entrega.exe.config
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\Radio Button y check entrega\Radio Button y check entrega\obj\Debug\Radio Button y check entrega.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\Radio Button y check entrega\Radio Button y check entrega\obj\Debug\Radio Button y check entrega.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\Radio Button y check entrega\Radio Button y check entrega\bin\Debug\Radio Button y check entrega.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\Radio Button y check entrega\Radio Button y check entrega\bin\Debug\Radio Button y check entrega.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\Radio Button y check entrega\Radio Button y check entrega\obj\Debug\Radio Button y check entrega.csprojResolveAssemblyReference.cache
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\Radio Button y check entrega\Radio Button y check entrega\obj\Debug\Radio_Button_y_check_entrega.Form1.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\Radio Button y check entrega\Radio Button y check entrega\obj\Debug\Radio_Button_y_check_entrega.Properties.Resources.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\Radio Button y check entrega\Radio Button y check entrega\obj\Debug\Radio Button y check entrega.csproj.GenerateResource.Cache

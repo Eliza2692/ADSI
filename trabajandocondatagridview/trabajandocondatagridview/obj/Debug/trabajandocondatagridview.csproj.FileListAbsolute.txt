@@ -1,0 +1,10 @@
+C:\Users\ALARCONTOP\AppData\Local\Temporary Projects\trabajandocondatagridview\bin\Debug\trabajandocondatagridview.exe.config
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\trabajandocondatagridview\trabajandocondatagridview\bin\Debug\trabajandocondatagridview.exe.config
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\trabajandocondatagridview\trabajandocondatagridview\bin\Debug\trabajandocondatagridview.exe.config
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\trabajandocondatagridview\trabajandocondatagridview\bin\Debug\trabajandocondatagridview.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\trabajandocondatagridview\trabajandocondatagridview\bin\Debug\trabajandocondatagridview.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\trabajandocondatagridview\trabajandocondatagridview\obj\Debug\trabajandocondatagridview.Form1.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\trabajandocondatagridview\trabajandocondatagridview\obj\Debug\trabajandocondatagridview.Properties.Resources.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\trabajandocondatagridview\trabajandocondatagridview\obj\Debug\trabajandocondatagridview.csproj.GenerateResource.Cache
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\trabajandocondatagridview\trabajandocondatagridview\obj\Debug\trabajandocondatagridview.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\trabajandocondatagridview\trabajandocondatagridview\obj\Debug\trabajandocondatagridview.pdb

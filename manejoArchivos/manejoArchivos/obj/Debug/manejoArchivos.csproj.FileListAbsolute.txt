@@ -1,0 +1,26 @@
+c:\users\sena08\documents\visual studio 2012\Projects\manejoArchivos\manejoArchivos\bin\Debug\manejoArchivos.exe.config
+c:\users\sena08\documents\visual studio 2012\Projects\manejoArchivos\manejoArchivos\bin\Debug\manejoArchivos.exe
+c:\users\sena08\documents\visual studio 2012\Projects\manejoArchivos\manejoArchivos\bin\Debug\manejoArchivos.pdb
+c:\users\sena08\documents\visual studio 2012\Projects\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.FrmPrincipal.resources
+c:\users\sena08\documents\visual studio 2012\Projects\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.Properties.Resources.resources
+c:\users\sena08\documents\visual studio 2012\Projects\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.csproj.GenerateResource.Cache
+c:\users\sena08\documents\visual studio 2012\Projects\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.exe
+c:\users\sena08\documents\visual studio 2012\Projects\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.pdb
+c:\users\sena08\documents\visual studio 2012\Projects\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.FrmContactos.resources
+c:\users\sena08\documents\visual studio 2012\Projects\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.csprojResolveAssemblyReference.cache
+C:\Users\EQUIPO13\Downloads\manejoArchivos\manejoArchivos\bin\Debug\manejoArchivos.exe.config
+C:\Users\EQUIPO13\Downloads\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.exe
+C:\Users\EQUIPO13\Downloads\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\manejoArchivos\manejoArchivos\bin\Debug\manejoArchivos.exe.config
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\manejoArchivos\manejoArchivos\bin\Debug\manejoArchivos.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\manejoArchivos\manejoArchivos\bin\Debug\manejoArchivos.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.csprojResolveAssemblyReference.cache
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.FrmPrincipal.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.FrmContactos.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.Properties.Resources.resources
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.csproj.GenerateResource.Cache
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\Lógica de programación y algoritmia\VISUAL C#\manejoArchivos\manejoArchivos\bin\Debug\manejoArchivos.exe.config
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\Lógica de programación y algoritmia\VISUAL C#\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.exe
+C:\Users\ALARCONTOP\Google Drive\Portafolios ADSI 903738\ELIZABETH ALARCÓN\7. Evidencias de aprendizaje\Lógica de programación y algoritmia\VISUAL C#\manejoArchivos\manejoArchivos\obj\Debug\manejoArchivos.pdb

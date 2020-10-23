@@ -1,0 +1,12 @@
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\ManejoDataGridView\ManejoDataGridView\bin\Debug\ManejoDataGridView.exe.config
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\ManejoDataGridView\ManejoDataGridView\bin\Debug\ManejoDataGridView.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\ManejoDataGridView\ManejoDataGridView\bin\Debug\ManejoDataGridView.pdb
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\ManejoDataGridView\ManejoDataGridView\obj\Debug\ManejoDataGridView.csprojResolveAssemblyReference.cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\ManejoDataGridView\ManejoDataGridView\obj\Debug\ManejoDataGridView.Form1.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\ManejoDataGridView\ManejoDataGridView\obj\Debug\ManejoDataGridView.Properties.Resources.resources
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\ManejoDataGridView\ManejoDataGridView\obj\Debug\ManejoDataGridView.csproj.GenerateResource.Cache
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\ManejoDataGridView\ManejoDataGridView\obj\Debug\ManejoDataGridView.exe
+C:\Users\EQUIPO13\Documents\ADSI903738 eliza\programacion\ManejoDataGridView\ManejoDataGridView\obj\Debug\ManejoDataGridView.pdb
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\ManejoDataGridView\ManejoDataGridView\bin\Debug\ManejoDataGridView.exe.config
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\ManejoDataGridView\ManejoDataGridView\obj\Debug\ManejoDataGridView.exe
+C:\Users\ALARCONTOP\Google Drive\PROGRMACIÓN Y ALGORITMIA\Visual C#\ELIZABETH\ManejoDataGridView\ManejoDataGridView\obj\Debug\ManejoDataGridView.pdb
